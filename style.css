@@ -1,5 +1,6 @@
 body {
      color: #9CA3AF !important;
+     font-family: 'poppins' , Arial, Helvetica, sans-serif;
 }
 
 .zecno-text-1 {
@@ -19,6 +20,10 @@ body {
 
 .nav-link {
      color: #fff;
+}
+
+.swiper {
+  width: 90%;
 }
 
 .bg-trans {
@@ -41,4 +46,30 @@ body {
      background-color: #9CA3AF;
      color: #111827;
      border-radius: 0.3rem;
+}
+
+/* WARNA PANAH */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #1F2937 !important; /* ganti sesuai warna kamu */
+}
+
+/* WARNA DOT PAGINATION */
+.swiper-pagination-bullet {
+  background-color: #ffffff;
+  border: 0.1rem solid #fff;
+  opacity: 0.4;
+}
+
+img {
+     width: 100%;
+     object-fit: cover;
+     object-position: center;
+     height: 15rem;
+}
+
+/* DOT AKTIF */
+.swiper-pagination-bullet-active {
+  background-color: #1F2937 !important; /* contoh warna aktif */
+  opacity: 1;
 }
