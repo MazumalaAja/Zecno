@@ -1,0 +1,44 @@
+body {
+     color: #9CA3AF !important;
+}
+
+.zecno-text-1 {
+     color: #9CA3AF;
+}
+
+
+.hero {
+     background-image: url("./assets/01.jpg");
+     background-size: cover;
+     background-position: center;
+}
+
+.placeholder-zecno {
+     color: #fff;
+}
+
+.nav-link {
+     color: #fff;
+}
+
+.bg-trans {
+     background-color: transparent !important;
+}
+
+.bg-zecno {
+     background-color: #1F2937 !important;
+}
+
+.bg-zecno-2 {
+     background-color: #111827 !important;
+}
+
+.b-line {
+  border-bottom: 0.124rem solid #9CA3AF !important;   
+}
+
+.active {
+     background-color: #9CA3AF;
+     color: #111827;
+     border-radius: 0.3rem;
+}
