@@ -3,6 +3,10 @@ body {
      font-family: 'poppins' , Arial, Helvetica, sans-serif;
 }
 
+:root::-webkit-scrollbar {
+     display: none;
+}
+
 .zecno-text-1 {
      color: #9CA3AF;
 }
@@ -10,6 +14,12 @@ body {
 
 .hero {
      background-image: url("./assets/01.jpg");
+     background-size: cover;
+     background-position: center;
+}
+
+.hero-2 {
+     background-image: url("./assets/03.jpg");
      background-size: cover;
      background-position: center;
 }
@@ -72,4 +82,40 @@ img {
 .swiper-pagination-bullet-active {
   background-color: #1F2937 !important; /* contoh warna aktif */
   opacity: 1;
+}
+
+.group-2 {
+     display: flex;
+     gap: 1rem;
+     overflow: scroll;
+}
+
+.group {
+     flex-shrink: 0;
+     width: max-content;
+     animation: scrollX infinite 30s linear;
+}
+
+.group-2::-webkit-scrollbar {
+     display: none;
+}
+
+.group img {
+     padding: 0.5rem 2rem;
+     border-radius: 0.5rem;
+     box-shadow: 0.188rem 0.188rem 2rem rgba(0,0,0,0.5);
+     object-fit: contain;
+     background-color: white;
+     display: block;
+     width: 10rem;
+     height: 5rem;
+}
+
+@keyframes scrollX {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }
