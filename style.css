@@ -2,6 +2,9 @@ body {
      color: #9CA3AF !important;
      font-family: 'poppins' , Arial, Helvetica, sans-serif;
 }
+ /* * {
+     border:0.124rem solid red;
+ } */
 
 :root::-webkit-scrollbar {
      display: none;
@@ -87,7 +90,13 @@ img {
 .group-2 {
      display: flex;
      gap: 1rem;
-     overflow: scroll;
+     overflow: hidden;
+}
+
+.group-3 {
+     display: flex;
+     gap: 1rem;
+     overflow: hidden;
 }
 
 .group {
@@ -96,11 +105,13 @@ img {
      animation: scrollX infinite 30s linear;
 }
 
-.group-2::-webkit-scrollbar {
-     display: none;
+.group-a {
+     flex-shrink: 0;
+     width: max-content;
+     animation: scrollX2 infinite 30s linear;
 }
 
-.group img {
+.group img , .group-a img {
      padding: 0.5rem 2rem;
      border-radius: 0.5rem;
      box-shadow: 0.188rem 0.188rem 2rem rgba(0,0,0,0.5);
@@ -117,5 +128,14 @@ img {
     }
     to {
         transform: translateX(-100%);
+    }
+}
+
+@keyframes scrollX2 {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
     }
 }
