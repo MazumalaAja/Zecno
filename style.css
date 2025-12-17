@@ -27,6 +27,12 @@ body {
      background-position: center;
 }
 
+.hero-3 {
+     background-image: url("./assets/02.jpg");
+     background-size: cover;
+     background-position: center;
+}
+
 .placeholder-zecno {
      color: #fff;
 }
@@ -79,6 +85,10 @@ img {
      object-fit: cover;
      object-position: center;
      height: 15rem;
+}
+
+.input-x::placeholder {
+     color: #fff;
 }
 
 /* DOT AKTIF */
