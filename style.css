@@ -149,3 +149,26 @@ img {
         transform: translateX(0);
     }
 }
+
+.pagination .page-link {
+     margin: auto;
+     background: transparent;
+}
+
+.pagination .page-item.active .page-link {
+     background: #fff;
+     color: #111827;
+     border-color: #fff;
+}
+
+.pagination .page-item .page-link {
+     color: #fff;
+}
+
+.pagination .page-item .page-link:hover {
+     background: #1F2937;
+}
+
+.pagination .page-link.disabled {
+     color: #1F2937;
+}
