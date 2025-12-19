@@ -172,3 +172,13 @@ img {
 .pagination .page-link.disabled {
      color: #1F2937;
 }
+
+@media (max-width:768px) {
+     html {
+          font-size: 0.8rem;
+     }
+     .table *  {
+          font-size: 0.8rem !important;
+          border: none;
+     }  
+}
